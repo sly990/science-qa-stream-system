@@ -1,0 +1,7 @@
+vector_store/     :: 忽略 vector_store 文件夹
+app.py           :: 忽略 app.py
+requirements.txt :: 忽略 requirements.txt
+data_pdf/*       :: 忽略 data_pdf 根目录
+!data_pdf/merged_pdfs/ :: 允许 merged_pdfs 子目录
+*.baiduyun.*      :: 忽略百度云缓存文件
+__pycache__/      :: Python 缓存
