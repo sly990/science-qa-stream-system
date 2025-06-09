@@ -203,7 +203,7 @@ def build_vector_store_and_index():
 
     docs = load_documents()
     embedder = get_embeddings()
-    if not embeder:
+    if not embedder:
         return None, None
 
     docs = [doc for doc in docs if doc.page_content and doc.page_content.strip()]
