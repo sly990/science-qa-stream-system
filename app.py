@@ -126,7 +126,7 @@ def get_llm():
         return ChatTongyi(
             model_name="qwen-turbo",
             dashscope_api_key=api_key,
-            temperature=0.7
+            temperature=0.1
         )
     except Exception as e:
         st.error(f"通义模型加载失败: {str(e)}")
